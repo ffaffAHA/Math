@@ -1,46 +1,4 @@
-\documentclass[UTF8, 12pt]{ctexart}
-% UTF8编码，ctexart现实中文
-\usepackage{color}
-% 使用颜色
-\definecolor{orange}{RGB}{255,127,0} 
-\usepackage{geometry}
-\setcounter{tocdepth}{4}
-\setcounter{secnumdepth}{4}
-% 设置四级目录与标题
-\geometry{papersize={21cm,29.7cm}}
-% 默认大小为A4
-\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
-% 默认页边距为1英尺与1.25英尺
-\usepackage{indentfirst}
-\setlength{\parindent}{2.45em}
-% 首行缩进2个中文字符
-\usepackage{setspace}
-\renewcommand{\baselinestretch}{1.5}
-% 1.5倍行距
-\usepackage{amssymb}
-% 因为所以
-\usepackage{amsmath}
-% 数学公式
-\usepackage{pifont}
-% 圆圈序号
-\usepackage{mathtools}
-% 有字的长箭头
-\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
-% 超链接
-\author{Didnelpsun}
-\title{极限}
-\date{}
-\begin{document}
-\maketitle
-\thispagestyle{empty}
-\tableofcontents
-\thispagestyle{empty}
-\newpage
-\pagestyle{plain}
-\setcounter{page}{1}
-
-极限运算分为函数极限和数列极限，数列极限和函数极限可以相互转化，这里主要以函数极限作为示例。
-
+\chapter{极限}
 \section{基本计算方式}
 
 课本上极限计算可以使用的主要计算方式：
@@ -781,4 +739,4 @@ $y_{n+1}=\dfrac{x_n+y_n}{2}$，$x_n+y_n=2y_{n+1}$，$y_n=x_n-2y_{n+1}$，又$y_n
 
 \textbf{例题：}计算$\lim\limits_{n\to\infty}\left(\dfrac{n+1}{n^2+1}+\cdots+\dfrac{n+n}{n^2+n^2}\right)$。
 
-\end{document}
+% %\end{document}

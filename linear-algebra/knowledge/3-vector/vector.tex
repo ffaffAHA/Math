@@ -1,44 +1,35 @@
-\documentclass[UTF8, 12pt]{ctexart}
+%空头
 % UTF8编码，ctexart现实中文
-\usepackage{color}
+%删除了\usepackage{color}
 % 使用颜色
 \definecolor{orange}{RGB}{255,127,0} 
 \definecolor{violet}{RGB}{192,0,255} 
 \definecolor{aqua}{RGB}{0,255,255} 
-\usepackage{geometry}
+%删除了\usepackage{geometry}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 % 设置四级目录与标题
-\geometry{papersize={21cm,29.7cm}}
+%删除A4
 % 默认大小为A4
-\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+%删除页面边距
 % 默认页边距为1英尺与1.25英尺
-\usepackage{indentfirst}
-\setlength{\parindent}{2.45em}
+%删除了\usepackage{indentfirst}
+%删除首行缩进
 % 首行缩进2个中文字符
-\usepackage{setspace}
+%删除\usepackage{setspace}
 \renewcommand{\baselinestretch}{1.5}
 % 1.5倍行距
-\usepackage{amssymb}
+%删除\usepackage{amssymb}
 % 因为所以
-\usepackage{amsmath}
+%删除\usepackage{amsmath}
 % 数学公式
-\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
+%\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
 % 超链接
-\usepackage{pifont}
+%删除了\usepackage{pifont}
 % 圆圈序号
-\author{Didnelpsun}
-\title{向量}
-\date{}
-\begin{document}
-\maketitle
-\pagestyle{empty}
-\thispagestyle{empty}
-\tableofcontents
-\thispagestyle{empty}
-\newpage
-\pagestyle{plain}
-\setcounter{page}{1}
+%删除了作者
+\chapter{向量}
+%删除了页面格式
 
 线性代数的主要研究对象就是向量，行列式与矩阵都是由向量组成的向量组。
 
@@ -146,4 +137,4 @@ $PAQ=B$（$PQ$为可逆矩阵），通过初等行列变换$A$能转换为$B$。
 
 $\alpha$在基$\xi_1,\xi_2,\cdots,\xi_n$和基$\eta_1,\eta_2,\cdots,\eta_n$下坐标分别为$x=[x_1,x_2,\cdots,x_n]^T$，$y=[y_1,y_2,\cdots,y_n]^T$，即$\alpha=[\xi_1,\xi_2,\cdots,\xi_n]x=[\eta_1,\eta_2,\cdots,\eta_n]y$。又$C$是基$\xi_1,\xi_2,\cdots,\xi_n$到基$\eta_1,\eta_2,\cdots,\eta_n$的过渡矩阵，则$[\xi_1,\xi_2,\cdots,\xi_n]=[\eta_1,\eta_2,\cdots,\eta_n]C$，则$\alpha=[\xi_1,\xi_2,\cdots,\xi_n]x=[\eta_1,\eta_2,\cdots,\eta_n]y=[\xi_1,\xi_2,\cdots,\xi_n]Cy$，从而$x=Cy$或$y=C^{-1}x$，这个就是\textbf{坐标变换公式}。
 
-\end{document}
+%\end{document}

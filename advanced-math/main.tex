@@ -1,0 +1,47 @@
+\documentclass[UTF8, 12pt]{ctexbook}
+% 在 ctexart 文档类中，\chapter 命令默认是不可用的。因为 ctexart 文档类主要用于创建短篇文章，比如期刊论文或报告，通常不需要分章节。如果你需要使用章节结构，可以考虑使用 ctexbook 文档类，该文档类支持 \chapter 等章节命令。
+\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
+\input{Head}
+\author{Didnelpsun}
+\title{高数}
+\date{}
+\begin{document}
+\maketitle
+\pagestyle{empty}
+\thispagestyle{empty}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\pagestyle{plain}
+\setcounter{page}{1}
+
+\input{knowledge/0-perpare/perpare.tex}
+
+\input{knowledge/1-function-and-limit/function-and-limit.tex}
+\input{exercise/1-limit/limit.tex}
+
+\input{knowledge/2-derivatives-and-differential/derivatives-and-differential.tex}
+\input{exercise/2-function/function.tex}
+
+\input{knowledge/3-applications-of-derivatives/applications-of-derivatives.tex}
+\input{exercise/3-differentiation-of-functions-of-single-variable/differentiation-of-functions-of-single-variable.tex}
+% /////
+\input{knowledge/4-indefinite-integral-and-definite-integral/indefinite-integral-and-definite-integral.tex}
+\input{exercise/4-integal-of-functions-of-single-variable/integal-of-functions-of-single-variable.tex}
+
+\input{knowledge/5-vector-algebra-and-space-analytic-geometry/vector-algebra-and-space-analytic-geometry.tex}
+\input{exercise/5-vector-algebra-and-space-analytic-geometry/vector-algebra-and-space-analytic-geometry.tex}
+
+\input{knowledge/6-differential-calculus-of-multivariate-functions/differential-calculus-of-multivariate-functions.tex}
+\input{exercise/6-differential-calculus-of-multivariate-functions/differential-calculus-of-multivariate-functions.tex}
+
+\input{knowledge/7-integral-calculus-of-multivariate-functions/integral-calculus-of-multivariate-functions.tex}
+\input{exercise/7-integral-calculus-of-multivariate-functions/integral-calculus-of-multivariate-functions.tex}
+
+\input{knowledge/8-infinite-series/infinite-series.tex}
+\input{exercise/8-infinite-series/infinite-series.tex}
+
+\input{knowledge/9-differential-equation/differential-equation.tex}
+\input{exercise/9-differential-equation/differential-equation.tex}
+
+\end{document}

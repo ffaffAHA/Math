@@ -1,42 +1,33 @@
-\documentclass[UTF8, 12pt]{ctexart}
+%空头
 % UTF8编码，ctexart现实中文
-\usepackage{color}
+%删除了\usepackage{color}
 % 使用颜色
 \definecolor{orange}{RGB}{255,127,0} 
 \definecolor{violet}{RGB}{192,0,255} 
 \definecolor{aqua}{RGB}{0,255,255}
-\usepackage{geometry}
+%删除了\usepackage{geometry}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 % 设置四级目录与标题
-\geometry{papersize={21cm,29.7cm}}
+%删除A4
 % 默认大小为A4
-\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+%删除页面边距
 % 默认页边距为1英尺与1.25英尺
-\usepackage{indentfirst}
-\setlength{\parindent}{2.45em}
+%删除了\usepackage{indentfirst}
+%删除首行缩进
 % 首行缩进2个中文字符
-\usepackage{setspace}
+%删除\usepackage{setspace}
 \renewcommand{\baselinestretch}{1.5}
 % 1.5倍行距
-\usepackage{amssymb}
+%删除\usepackage{amssymb}
 % 因为所以
-\usepackage{amsmath}
+%删除\usepackage{amsmath}
 % 数学公式
-\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
+%\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
 % 超链接
-\author{Didnelpsun}
-\title{微分方程}
-\date{}
-\begin{document}
-\maketitle
-\pagestyle{empty}
-\thispagestyle{empty}
-\tableofcontents
-\thispagestyle{empty}
-\newpage
-\pagestyle{plain}
-\setcounter{page}{1}
+%删除了作者
+\chapter{微分方程}
+%删除了页面格式
 
 \section{一阶微分方程}
 
@@ -306,4 +297,4 @@ $F=ma$，物体质量$m$，力$f$，加速度$a=\dfrac{\textrm{d}^x}{\textrm{d}t
 
 如冷却定律，$k$时刻物体温度$T(t)$对时间的变化率与$t$时刻物体与介质的温差$T-T_0$成正比，应写为$\dfrac{\textrm{d}T}{\textrm{d}t}=-k(x-x_0)$。
 
-\end{document}
+%\end{document}

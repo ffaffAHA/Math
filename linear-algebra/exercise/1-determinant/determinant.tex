@@ -1,42 +1,33 @@
-\documentclass[UTF8, 12pt]{ctexart}
+%空头
 % UTF8编码，ctexart现实中文
-\usepackage{color}
+%删除了\usepackage{color}
 % 使用颜色
 \definecolor{orange}{RGB}{255,127,0}
-\usepackage{geometry}
+%删除了\usepackage{geometry}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 % 设置四级目录与标题
-\geometry{papersize={21cm,29.7cm}}
+%删除A4
 % 默认大小为A4
-\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+%删除页面边距
 % 默认页边距为1英尺与1.25英尺
-\usepackage{indentfirst}
-\setlength{\parindent}{2.45em}
+%删除了\usepackage{indentfirst}
+%删除首行缩进
 % 首行缩进2个中文字符
-\usepackage{setspace}
+%删除\usepackage{setspace}
 \renewcommand{\baselinestretch}{1.5}
 % 1.5倍行距
-\usepackage{amssymb}
+%删除\usepackage{amssymb}
 % 因为所以
-\usepackage{amsmath}
+%删除\usepackage{amsmath}
 % 数学公式
-\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
+%\usepackage[colorlinks,linkcolor=black,urlcolor=blue]{hyperref}
 % 超链接
 \usepackage{rotating}
 % 用于旋转对象（旋转包）
-\author{Didnelpsun}
-\title{行列式}
-\date{}
-\begin{document}
-\maketitle
-\pagestyle{empty}
-\thispagestyle{empty}
-\tableofcontents
-\thispagestyle{empty}
-\newpage
-\pagestyle{plain}
-\setcounter{page}{1}
+%删除了作者
+\chapter{行列式}
+%删除了页面格式
 \section{逆序}
 
 逆序一般只会考一个数列的逆序数，一般以自然数从小到大为标准次序。
@@ -723,4 +714,4 @@ $D_{2n}=D_2D_{2(n-1)}=(ad-bc)D_{2(n-1)}$，所以不断递推可以得到结果�
     0 & 0 & 0 & 1
 \end{array}\right|=24$。
 
-\end{document}
+%\end{document}
